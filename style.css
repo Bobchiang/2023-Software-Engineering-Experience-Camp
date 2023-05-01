@@ -1,12 +1,12 @@
-/*  html selector */
-h1 {
-    color: blue;
-    font-size: 13px;
-}
-p {
-    color: red;
-}
+/*  hover selector */
 a {
-    color: pink;
+    color: black;
+}
+a:hover {
+    color: red;
+    font-size: 20px;
+}
+a:active {
+    color: blue;
 }
 
