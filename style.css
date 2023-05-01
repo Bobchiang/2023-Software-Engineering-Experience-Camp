@@ -1,12 +1,15 @@
-/*  hover selector */
-a {
-    color: black;
-}
-a:hover {
-    color: red;
-    font-size: 20px;
-}
-a:active {
+/*  class selector */
+p {
     color: blue;
 }
+.red { /* 自訂名稱 */
+    color: red;
+}
+.pink {
+    color: pink;
+}
+.style2 {
+    font-size: 30px;
+}
+
 
