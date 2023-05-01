@@ -1,0 +1,12 @@
+/*  html selector */
+h1 {
+    color: blue;
+    font-size: 13px;
+}
+p {
+    color: red;
+}
+a {
+    color: pink;
+}
+
