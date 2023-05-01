@@ -1,16 +1,15 @@
-/*  css beautify font formatter */
-p {
-    font-family: Verdana;
-    font-size: 18px;
-    line-height: 1.5;
-    /*
-    line-height: 27px; 
-    text-align: left; //文字靠左
-    text-indent: 32px; //段落開頭空兩個字
-    text-decoration: line-through; //刪除線
-    letter-spacing: 2px; //字距
-    */
+/*  border */
+h1 {
+    /*線條粗細 
+    線條樣式 solid, dashed, dotted
+    顏色 */
+    border-left: 10px solid blue;
+    border-bottom: 10px solid red;
+    border-right: 10px solid black;
+    border-top: 10px solid pink;
 }
-
+img {
+    border: 5px solid black;
+}
 
 
