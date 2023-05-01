@@ -1,15 +1,14 @@
-/*  class selector */
+/*  css beautify font formatter */
 p {
-    color: blue;
+    font-family: Verdana;
+    font-size: 18px;
+    line-height: 1.5;
+    /*line-height: 27px; 
+    text-align: left;
+    text-indent: 32px;
+    text-decoration: line-through;
+    letter-spacing: 2px;*/
 }
-.red { /* 自訂名稱 */
-    color: red;
-}
-.pink {
-    color: pink;
-}
-.style2 {
-    font-size: 30px;
-}
+
 
 
