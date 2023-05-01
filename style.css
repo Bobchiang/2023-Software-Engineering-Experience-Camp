@@ -3,11 +3,13 @@ p {
     font-family: Verdana;
     font-size: 18px;
     line-height: 1.5;
-    /*line-height: 27px; 
-    text-align: left;
-    text-indent: 32px;
-    text-decoration: line-through;
-    letter-spacing: 2px;*/
+    /*
+    line-height: 27px; 
+    text-align: left; //文字靠左
+    text-indent: 32px; //段落開頭空兩個字
+    text-decoration: line-through; //刪除線
+    letter-spacing: 2px; //字距
+    */
 }
 
 
