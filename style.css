@@ -1,4 +1,4 @@
-/*  css reset */
+/*  display: block */
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -49,8 +49,13 @@ table {
 	border-spacing: 0;
 }
 
-/*  your css */
 h1 {
-    color: blue;
-    font-size: 20px;
+    background: gray;
+    color: white;
+    width: 300px;
+}
+
+p, li, a {
+    background: blue;
+    color: white;
 }
