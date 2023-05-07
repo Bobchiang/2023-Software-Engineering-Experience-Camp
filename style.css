@@ -1,4 +1,4 @@
-/*  margin */
+/*  padding */
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -54,10 +54,15 @@ table {
     margin-left: 30px;
     border: 5px solid blue;
     width: 300px;
+    padding-left: 30px;
 }
 .box p {
     margin-bottom: 30px;
 }
 /*
  區塊元素會盡可能佔滿整個空間，會依照父元素的寬度自適應延伸佔滿
+*/
+/*
+ padding: 向內推
+ margin: 向外推
 */
