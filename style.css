@@ -1,4 +1,4 @@
-/*  Flex Introduction 2 */
+/*  flex-direction */
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -137,31 +137,25 @@ table {
 *:after {
   box-sizing: border-box;
 }
-.container {
-  /*  (1)並排 
-        (2)依照 container 寬度自動計算每個 item 的寬度，按照比例去做調整 
-        (3)item 預設等高
-        */
-  display: flex;
-  width: 500px;
-  background: #004466;
-  margin: 0 auto;
-}
-.item {
-  background: #00ffa2;
-  color: #004466;
-  text-align: center;
-  font-size: 36px;
-  margin-bottom: 10px;
-  /* mr*10  */
-  margin-right: 10px;
-  margin-left: 10px;
-}
-.item1 {
-  width: 150px;
-}
-.item2 {
-}
-.item3 {
-  width: 400px;
-}
+.container{
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    background: #004466;
+    padding: 20px;
+    display: flex;
+    /* 主軸的起點從右到左 */
+    flex-direction: row-reverse;
+    /* flex-direction: column-reverse; */
+  }
+  .item{
+    width: 100px;
+    background: #00ffa2;
+    /* ml10 */
+    margin-left: 10px;
+    /* mr10 */
+    margin-right: 10px;
+    color: #004466;
+    font-size: 36px;
+    text-align: center;
+  }
