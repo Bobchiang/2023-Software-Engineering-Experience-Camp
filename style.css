@@ -1,4 +1,4 @@
-/*  Margin 0 auto for Block Horizontal Centering */
+/*  box-sizing: border-box */
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -50,29 +50,24 @@ table {
 }
 
 /*  your css */
-.wrap {
-    width: 500px;
+
+/*  default 就是 border-box */
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+.box {
+    width: 50px;
+    height: 50px;
+    border: 10px solid blue;
+    padding: 10px;
     background: black;
-    margin-left: auto;
-    margin-right: auto;
+    box-sizing: border-box;
 }
 
-.header {
+.box2 {
+    width: 50px;
     height: 50px;
-    background: red;
-}
-
-.content {
-    background: blue;
-    padding: 20px;
-}
-
-.content p {
-    color: white;
-    margin-bottom: 30px;
-}
-
-.footer {
-    height: 50px;
-    background: pink;
+    border: 10px solid blue;
+    padding: 10px;
+    background: black;
 }
