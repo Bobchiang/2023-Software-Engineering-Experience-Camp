@@ -1,4 +1,4 @@
-/*  Flex Introduction 1 */
+/*  Flex Introduction 2 */
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -138,23 +138,30 @@ table {
   box-sizing: border-box;
 }
 .container {
-  /*  讓子層 div 並排 => display: flex; 下在父層 */
+  /*  (1)並排 
+        (2)依照 container 寬度自動計算每個 item 的寬度，按照比例去做調整 
+        (3)item 預設等高
+        */
   display: flex;
-  background: #004466;
-  /*  w500 */
   width: 500px;
-  /*  m0-auto */
+  background: #004466;
   margin: 0 auto;
-  padding: 10px;
 }
 .item {
-  width: 100px;
   background: #00ffa2;
   color: #004466;
-  font-size: 36px;
   text-align: center;
-  margin: 10px;
+  font-size: 36px;
+  margin-bottom: 10px;
+  /* mr*10  */
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.item1 {
+  width: 150px;
 }
 .item2 {
-  height: 300px;
+}
+.item3 {
+  width: 400px;
 }
