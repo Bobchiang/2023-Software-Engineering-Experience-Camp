@@ -1,4 +1,4 @@
-/*  justify-content */
+/*  Flex Inline Menu */
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -138,25 +138,27 @@ table {
   box-sizing: border-box;
 }
 
-.container{
-    width: 500px;
-    height: 400px;
-    margin: 0 auto;
-    background: #004466;
-    display: flex;
-    flex-direction: column;
-    /* flex-direction: row; */
-    /* justify-content: 主軸對齊方式 */
-    /* justify-content: center; */
-    /* justify-content: flex-end; */
-    justify-content: space-around;
-    /* justify-content: space-between; */
-    /* justify-content: flex-start; */
-  }
-  .item{
-    width: 100px;
-    background: #00ffa2;
-    color: #004466;
-    font-size: 36px;
-    text-align: center;
-  }
+.menu {
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+}
+.menu li {
+  width: 100px;
+  text-align: center;
+  border: 1px solid #000;
+}
+.menu li a {
+  display: block;
+  background: #00ffa2;
+  /* pt10 */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* disable link underline */
+  text-decoration: none;
+  color: #004466;
+}
+.menu li a:hover {
+  background: #004466;
+  color: #00ffa2;
+}
