@@ -1,4 +1,4 @@
-/*  Flex Inline Menu */
+/*  flex-wrap */
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -142,19 +142,18 @@ table {
   width: 600px;
   margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
 }
 .menu li {
   width: 100px;
   text-align: center;
-  border: 1px solid #000;
+  margin-bottom: 20px;
 }
 .menu li a {
   display: block;
   background: #00ffa2;
-  /* pt10 */
   padding-top: 10px;
   padding-bottom: 10px;
-  /* disable link underline */
   text-decoration: none;
   color: #004466;
 }
