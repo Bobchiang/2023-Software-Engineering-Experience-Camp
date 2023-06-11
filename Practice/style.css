@@ -130,34 +130,45 @@ table {
   border-spacing: 0;
 }
 
-/*  your css */
-/*  讓 box-sizing 變成 border-box */
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
+/* outline for checking your design
+* {
+  outline: 1px solid #000;
+} */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 650px;
+  margin: 0 auto;
+  border: 1px solid #000;
 }
 
+/* 做的差不多要記得把 remove border
+.logo,
 .menu {
-  width: 600px;
-  margin: 0 auto;
+  border: 1px solid #000;
+} */
+
+.menu {
   display: flex;
-  flex-wrap: wrap;
 }
+
 .menu li {
-  width: 100px;
+  width: 80px;
   text-align: center;
-  margin-bottom: 20px;
 }
+
 .menu li a {
+  background: green;
+  color: #fff;
   display: block;
-  background: #00ffa2;
+  text-decoration: none;
   padding-top: 10px;
   padding-bottom: 10px;
-  text-decoration: none;
-  color: #004466;
 }
+
 .menu li a:hover {
-  background: #004466;
-  color: #00ffa2;
+  background: blue;
 }
