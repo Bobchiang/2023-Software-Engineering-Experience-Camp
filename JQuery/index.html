@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <style>
+        .block {
+            height: 300px;
+            width: 300px;
+            background-color: orange;
+            display: inline-block;
+            transition: 1s background-color;
+        }
+
+        .bg-purple {
+            background-color: purple;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <!-- <span data-set="name">ming</span> enjoy <span data-set="food"></span> -->
+        name: <span data-set="name"></span><br>
+        email: <span data-set="email"></span><br>
+        tel: <span data-set="tel"></span><br>
+        <img src="" data-set="img" alt="">
+    </div>
+    <br><br><br><br><br><br><br><br><br><br>
+    <div class="block"></div>
+    <div class="block"></div>
+    <div class="block"></div>
+    <button type="button" id="hideBtn"> click me: hide</button>
+    <button type="button" id="slideBtn"> click me: slide block</button>
+    <button type="button" id="classToggle"> click me: switch class</button>
+    <button type="button" id="addAnimate"> click me: dynamic effect</button>
+    <!--script:src -->
+    <script src="./js/jquery-3.7.0.js"></script>
+    <script src="./js/all.js"></script>
+</body>
+
+</html>
